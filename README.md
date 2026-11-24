@@ -50,6 +50,13 @@ curl -L https://github.com/bitwarden/agent-access/releases/latest/download/aac-l
 sudo mv aac /usr/local/bin/ # Makes it available on PATH
 ```
 
+### Linux (ARM64)
+
+```shell
+curl -fL https://github.com/bitwarden/agent-access/releases/latest/download/aac-linux-aarch64.tar.gz | tar xz
+sudo mv aac /usr/local/bin/ # Makes it available on PATH
+```
+
 ### Windows (x86_64)
 
 Download [aac-windows-x86_64.zip](https://github.com/bitwarden/agent-access/releases/latest/download/aac-windows-x86_64.zip) from the [latest release](https://github.com/bitwarden/agent-access/releases/latest) and extract it to a directory on your PATH.
